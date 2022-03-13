@@ -1,9 +1,13 @@
 <template>
+    <Introduction />
+    <HomeSwiper />
     <Skills />
 </template>
 
 <script>
-    import Skills from "./Skills.vue"
+    import Introduction from "./HomePage/Introduction.vue"
+    import HomeSwiper from "./HomePage/HomeSwiper.vue"
+    import Skills from "./HomePage/Skills.vue"
 
     export default {
         name: 'Home',
@@ -11,6 +15,8 @@
             constants: Object
         },
         components: {
+            Introduction,
+            HomeSwiper,
             Skills
         }
     }

@@ -1,12 +1,11 @@
 <template>
-    <div class="container">
+    <div class="container page-content">
         <div class="row">
             <div class="col-12 col-lg-12 col-md-12">
-                <div class="misc-skills">
-                    <span v-for="skill in constants.skills" :key="skill">
-                        <span class="skill-tag"> {{skill}} </span>
-                    </span>
-                </div>
+                <h1>Skills</h1>
+                <span v-for="skill in constants.skills" :key="skill">
+                    <span class="skill-tag"> {{skill}} </span>
+                </span>
             </div> <!-- ./ item col -md-12 -->
         </div> <!-- ./ row -->
     </div>
@@ -14,7 +13,7 @@
 
 <script>
 
-import constants from "../constants.js"
+import constants from "../../constants.js"
 
 export default {
     name: 'Skills',

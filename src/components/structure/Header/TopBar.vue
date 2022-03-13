@@ -16,7 +16,7 @@
             </div>
             
             <div class="col-12 col-md-6 cv-telegram">
-                <a class="btn mr-1" :href="telegram.url"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
+                <a class="btn mr-1" :href="telegram.url" target="_blank"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
                 <a class="btn" :href="this.constants.main.cv"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>
             </div>
 
@@ -39,44 +39,11 @@
 </script>
 
 <style scoped>
-/** Header **/
-.avatar {
-    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
-    border: 1px solid #202945;
-}
-
-.header .name {
-    letter-spacing: 0.5px;
-    font-family: Kiona;
-}
-
-.header .title {
-    font-weight: 300;
-    margin-bottom: 30px;
-    font-family: Kiona;
-
+.list-inline-item:not(margin-right){
+    margin-right: .5rem;
 }
 
 @media screen and (max-width: 768px) {
-    .header .avatar {
-        max-width: 150px;
-        margin-left:auto;
-        margin-right: auto;
-    }
-
-    .header .name {
-        font-size: 40px;
-    }
-    .header .title {
-        font-size: 20px;
-    }
-
-    .row-names {
-        text-align: center;
-    }
-
     .cv-telegram {
         margin-top: 25px;
         text-align: center;
@@ -87,44 +54,24 @@
     .cv-telegram {
         text-align: right;
     }
-
-    .header .name {
-        font-size: 64px;
-    }
-    .header .title {
-        font-size: 28px;
-    }
 }
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
-    .header .avatar {
-        margin-top: 65px;
-    }
 
-    .header .name {
-        font-size: 32px;
-    }
-    .header .title {
-        font-size: 20px;
-    }
-}
-
-.header a {
+.top-bar a {
     color: #fff;    
 }
 
-.header .top-bar {
+.top-bar {
     position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.header .social {
+.top-bar .social {
     margin-bottom: 0;
 }
 
-.header .social a {
-    color: #FFF;
+.top-bar .social a {
     display: inline-block;
     text-align: center;
     width: 35px;
@@ -137,21 +84,9 @@
     border: 1px solid #202945;
 }
 
-.header .social a:hover {
+.top-bar .social a:hover {
     color: #fff;
     background-color: #202945;
 }
 
-
-.header .contact-info,
-.header .intro {
-    background: #202945;
-    font-size: 16px;
-}
-.header .intro {
-    padding-top: 90px;
-    padding-bottom: 15px;
-    position: relative;
-    border-width: 3px 0 0;
-}
 </style>

@@ -24,6 +24,7 @@
                                 <a class="nav-link" :href="r.path" :title="r.name">
                                     {{r.name}}
                                 </a>
+                                <!--<router-link class="nav-link" :to="r.path" :title="r.name">{{r.name}}</router-link>-->
                             </li>
                         </span>
                     </ul>
@@ -65,6 +66,7 @@
     position: relative;
 }
 
+
 .page-nav-wrapper a {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 500;
@@ -98,7 +100,5 @@
     color: #fff;
     background: 0 0;
 }
-.page-nav-wrapper .page-nav li:last-child {
-    margin-right: 0;
-}
+
 </style>

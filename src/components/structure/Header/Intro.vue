@@ -31,7 +31,6 @@
 </script>
 
 <style scoped>
-/** Header **/
 .avatar {
     -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);

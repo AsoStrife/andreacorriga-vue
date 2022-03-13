@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
+    "swiper": "^8.0.7",
     "vue-router": "^4.0.12",
     "wow.js": "^1.2.2"
   },
