@@ -7,22 +7,32 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      mainNav: true
     },
     {
       path: '/projects',
       name: 'Projects',
-      component: () => import('../views/AboutView.vue')
+      component: () => import('../views/Projects.vue'),
+      mainNav: true
     },
     {
         path: '/strife_coin',
         name: 'Strife Coin',
-        component: () => import('../views/AboutView.vue')
+        component: () => import('../views/StrifeCoin.vue'),
+        mainNav: true
     },
     {
         path: '/movies',
         name: 'Movies',
-        component: () => import('../views/AboutView.vue')
+        component: () => import('../views/Movies.vue'),
+        mainNav: true
+    },
+    {
+        path: '/privacy_policy',
+        name: 'Privacy Policy',
+        component: () => import('../views/PrivacyPolicy.vue'),
+        mainNav: false
     }
   ]
 })

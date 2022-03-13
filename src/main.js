@@ -1,9 +1,17 @@
 import { createApp } from 'vue'
+import WOW from 'wow.js'
+
+import "bootstrap/dist/css/bootstrap.min.css"
+import '@/assets/css/base.css';
+import '@/assets/css/animate.css';
+
+
 import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
 
-app.use(router)
+new WOW().init();
 
+app.use(router)
 app.mount('#app')
