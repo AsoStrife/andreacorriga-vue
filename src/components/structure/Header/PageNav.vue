@@ -21,10 +21,7 @@
                     <ul class="navbar-nav mr-auto">
                         <span v-for="r in this.routes" :key="r.name">
                             <li class="nav-item">
-                                <a class="nav-link" :href="r.path" :title="r.name">
-                                    {{r.name}}
-                                </a>
-                                <!--<router-link class="nav-link" :to="r.path" :title="r.name">{{r.name}}</router-link>-->
+                                <router-link class="nav-link mobile-nav-link" data-toggle="collapse" data-target="#navbarText" :to="r.path" :title="r.name">{{r.name}}</router-link>
                             </li>
                         </span>
                     </ul>
@@ -45,6 +42,9 @@
             return {
                 routes: this.$router.options.routes.filter(r => r.mainNav)
             }
+        },
+        methods: {
+            
         }
     }
 </script>

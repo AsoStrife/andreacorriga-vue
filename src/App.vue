@@ -14,7 +14,7 @@
     import { RouterView } from 'vue-router'
     import Header from './components/structure/Header.vue'
     import Footer from './components/structure/Footer.vue'
-    import { useMeta, useActiveMeta } from 'vue-meta/dist/vue-meta.esm-browser'
+    import { useMeta } from 'vue-meta'
     import constants from './constants'
 
     export default {
@@ -30,10 +30,24 @@
         setup() {
             useMeta({
                 htmlAttrs: { 
-                    lang: 'en' 
-                }
+                    lang: 'en',
+                },
+                description: constants.main.description,
+                meta: [
+                    {
+                    name: 'keywords',
+                    content:
+                        'My description',
+                    },
+                ],
+                author: "a",
+                robots: "r",
+                //language: "en",
+                //rating: "rr",
+
+                //"fb:app_id": "123"
+                
             })
-            
         }
     }
 </script>
