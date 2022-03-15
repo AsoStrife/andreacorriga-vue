@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.0",
-    "swiper": "^8.0.7",
+    "vue-meta": "^3.0.0-alpha.8",
     "vue-router": "^4.0.12",
     "wow.js": "^1.2.2"
   },

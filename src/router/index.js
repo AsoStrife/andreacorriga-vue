@@ -8,30 +8,30 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      mainNav: true
+      mainNav: true,
     },
     {
       path: '/projects',
       name: 'Projects',
-      component: () => import('../views/Projects.vue'),
+      component: () => import('../views/ProjectsView.vue'),
       mainNav: true
     },
     {
         path: '/strife_coin',
         name: 'Strife Coin',
-        component: () => import('../views/StrifeCoin.vue'),
+        component: () => import('../views/StrifeCoinView.vue'),
         mainNav: true
     },
     {
         path: '/movies',
         name: 'Movies',
-        component: () => import('../views/Movies.vue'),
+        component: () => import('../views/MoviesView.vue'),
         mainNav: true
     },
     {
         path: '/privacy_policy',
         name: 'Privacy Policy',
-        component: () => import('../views/PrivacyPolicy.vue'),
+        component: () => import('../views/PrivacyPolicyView.vue'),
         mainNav: false
     }
   ]

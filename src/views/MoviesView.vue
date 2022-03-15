@@ -1,21 +1,23 @@
+
+
 <template>
   <main>
-    <HomePage />
+    <Movies />
   </main>
 </template>
 
 <script>
-    import HomePage from '../components/HomePage.vue'
+    import Movies from '../components/Movies.vue'
     import { useMeta } from 'vue-meta'
-
-     export default {
-        name: 'HomeView', 
+    
+    export default {
+        name: 'MoviesViews', 
         components: {
-            HomePage
+            Movies
         },
         setup() {
             useMeta({
-                title: ''
+                title: 'Movies'
             })
         },
      }

@@ -17,12 +17,12 @@ let constants = {
       "cv": "https://cv.andreacorriga.com"
     },
     "img": {
-      "profile": "/src/assets/img/profile/andrea-corriga-asostrife-profile-image.png",
-      "profile_200x200": "/src/assets/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
-      "profile_chocobo": "/src/assets/img/profile/andrea-corriga-asostrife-chocobo-small.png",
-      "favicon": "/src/assetsimg/favicon/favicon.png",
-      "favicon_72x72": "/src/assets/img/favicon/favicon-72x72.png",
-      "favicon_114x114": "/src/assets/img/favicon/favicon-114x114.png"
+      "profile": "/img/profile/andrea-corriga-asostrife-profile-image.png",
+      "profile_200x200": "/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
+      "profile_chocobo": "/img/profile/andrea-corriga-asostrife-chocobo-small.png",
+      "favicon": "/favicon/favicon.png",
+      "favicon_72x72": "/img/favicon/favicon-72x72.png",
+      "favicon_114x114": "/img/favicon/favicon-114x114.png"
     },
     "social": [
         {

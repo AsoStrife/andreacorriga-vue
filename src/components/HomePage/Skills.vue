@@ -3,6 +3,14 @@
         <div class="row">
             <div class="col-12 col-lg-12 col-md-12">
                 <h1>Skills</h1>
+                <p><strong>I can help with the following:</strong></p>
+                <ul class="list-unstyled service-list">
+                    <li><i class="fas fa-check" aria-hidden="true"></i> Back-End Development with PHP <strong>(Codeigniter)</strong> </li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> Front-End Development with Bootstrap &amp; Javascript</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> Cross-Platform App with <strong>Framework 7</strong> </li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i> Telegram Bot </li>
+                </ul>
+
                 <span v-for="skill in constants.skills" :key="skill">
                     <span class="skill-tag"> {{skill}} </span>
                 </span>
@@ -13,14 +21,10 @@
 
 <script>
 
-import constants from "../../constants.js"
-
 export default {
     name: 'Skills',
-    data() {
-        return {
-            constants: constants
-        }
+    props: {
+        constants: Object
     }
 }
 </script>

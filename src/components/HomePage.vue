@@ -1,23 +1,23 @@
 <template>
-    <Introduction />
-    <HomeSwiper />
-    <Skills />
+    <Introduction :constants="constants" />
+    <Skills :constants="constants" />
 </template>
 
 <script>
     import Introduction from "./HomePage/Introduction.vue"
-    import HomeSwiper from "./HomePage/HomeSwiper.vue"
     import Skills from "./HomePage/Skills.vue"
+    import constants from "../constants.js"
 
     export default {
         name: 'Home',
-        propos: {
-            constants: Object
-        },
         components: {
             Introduction,
-            HomeSwiper,
             Skills
+        },
+        data() {
+            return {
+                constants: constants
+            }
         }
     }
 </script>

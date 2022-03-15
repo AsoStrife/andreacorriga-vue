@@ -21,14 +21,11 @@
 </template>
 
 <script>
-import constants from "../../constants.js"
 
 export default {
     name: 'Introduction',
-    data() {
-        return {
-            constants: constants
-        }
+    props: {
+        constants: Object
     }
 }
 </script>
