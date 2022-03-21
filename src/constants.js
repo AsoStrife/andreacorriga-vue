@@ -95,6 +95,20 @@ let constants = {
       "Mysql",
       "Mongo",
       "Firebase"
+    ],
+    "projects": [
+        {
+            name: "Ayco",
+            img: "/img/projects/ayco-logo.png", 
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium, sapien at tincidunt vestibulum, augue leo imperdiet arcu, vitae pharetra mi magna et diam. Duis vehicula eget nisl nec hendrerit.", 
+            url: "https://ayco.app"
+        },
+        {
+            name: "Unicapp",
+            img: "/img/projects/unicapp-logo.png", 
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium, sapien at tincidunt vestibulum, augue leo imperdiet arcu, vitae pharetra mi magna et diam. Duis vehicula eget nisl nec hendrerit.", 
+            url: ""
+        }
     ]
 }
 

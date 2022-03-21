@@ -29,7 +29,7 @@ const router = createRouter({
         path: '/movies',
         name: 'Movies',
         component: () => import('../views/MoviesView.vue'),
-        mainNav: true
+        mainNav: false
     },
     {
         path: '/privacy_policy',
