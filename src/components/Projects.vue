@@ -5,25 +5,26 @@
                 <h1>Projects</h1>
             </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium, sapien at tincidunt vestibulum, augue leo imperdiet arcu, vitae pharetra mi magna et diam. Duis vehicula eget nisl nec hendrerit. Fusce viverra ligula id laoreet volutpat. Nullam in odio sit amet nulla hendrerit aliquet. Sed fermentum placerat fringilla. Morbi mollis arcu ac lacus blandit, ut sagittis lacus venenatis. Aenean porta ipsum eros, mollis imperdiet eros volutpat non. Cras condimentum eget lorem sit amet ultrices. Nullam et leo ac purus euismod scelerisque sit amet ut massa.</p>
+        <p>As a programming enthusiast, I often launch new projects to experiment with new technologies/frameworks and try to solve small everyday problems.This page shows the projects that are currently active. Abandoned projects, if open-source, can always be found on my <b><a :href="github.url" target="_blank" :title="github.name">Github</a></b> profile.</p>
         <div v-for="project in this.constants.projects" :key="project.name">
-            <ProjectCard :project="project"/>
+            <Project :project="project"/>
         </div>
     </div>
 </template>
 
 <script>
     import constants from "../constants.js"
-    import ProjectCard from "./structure/ProjectCard.vue";
+    import Project from "./structure/Project.vue";
 
     export default {
         name: 'Projects',
         components: {
-            ProjectCard
+            Project
         },
         data() {
             return {
-                constants: constants
+                constants: constants,
+                github: constants.social.filter(s => s.name == 'Github')[0]
             }
         }
     }

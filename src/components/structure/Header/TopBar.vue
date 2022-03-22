@@ -7,7 +7,7 @@
                     
                     <span v-for="social in this.constants.social" :key="social.name">
                         <li class="list-inline-item">
-                            <a :href="social.url" target="_blank">
+                            <a :href="social.url" target="_blank" :title="social.name">
                                 <i :class="social.icon" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -16,7 +16,7 @@
             </div>
             
             <div class="col-12 col-md-6 cv-telegram">
-                <a class="btn mr-1" :href="telegram.url" target="_blank"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
+                <a class="btn mr-1" :href="telegram.url" target="_blank" :title="telegram.name"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
                 <a class="btn" :href="this.constants.main.cv"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>
             </div>
 
@@ -32,7 +32,7 @@
         },
         data() {
             return {
-                telegram: this.constants.social.filter(s => s.name == 'telegram')[0]
+                telegram: this.constants.social.filter(s => s.name == 'Telegram')[0]
             }
         }
     }

@@ -9,10 +9,18 @@
                         </div>
                         <div class="col-lg-10 col-md-10">
                             <h1>{{project.name}}</h1>
-                            <p>{{project.description}}</p>
+                            <p v-html="project.description"></p>
                             <div class="text-right">
-                                <a :href="project.url" target="_blank" class="btn" v-if="project.url">
-                                    <i class="fa fa-globe mr-2" aria-hidden="true"></i> Website
+                                <a :href="project.url" target="_blank" class="btn mr-2" v-if="project.url">
+                                    <i class="fa fa-globe" aria-hidden="true"></i> Website
+                                </a>
+
+                                <a :href="project.android" target="_blank" class="btn mr-2" v-if="project.android">
+                                    <i class="fab fa-google-play mr-2" aria-hidden="true"></i> Play Store
+                                </a>
+
+                                <a :href="project.ios" target="_blank" class="btn mr-2" v-if="project.ios">
+                                    <i class="fab fa-apple mr-2" aria-hidden="true"></i> App Store
                                 </a>
                             </div>
                         </div>
@@ -25,7 +33,7 @@
 
 <script>
     export default {
-        name: 'ProjectCard',
+        name: 'Project',
         props: {
             project: Object
         }
