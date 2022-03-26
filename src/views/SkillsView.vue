@@ -1,23 +1,21 @@
-
-
 <template>
   <main>
-    <Movies />
+    <Skills />
   </main>
 </template>
 
 <script>
-    import Movies from '../components/Movies.vue'
+    import Skills from '../components/Skills.vue'
     import { useMeta } from 'vue-meta'
-    
-    export default {
-        name: 'MoviesViews', 
+
+     export default {
+        name: 'SkillsView', 
         components: {
-            Movies
+            Skills
         },
         setup() {
             useMeta({
-                title: 'Movies',
+                title: 'Skills'
             })
         },
      }

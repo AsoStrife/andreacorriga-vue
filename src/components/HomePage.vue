@@ -5,14 +5,12 @@
 
 <script>
     import Introduction from "./HomePage/Introduction.vue"
-    import Skills from "./HomePage/Skills.vue"
     import constants from "../constants.js"
 
     export default {
         name: 'Home',
         components: {
-            Introduction,
-            Skills
+            Introduction
         },
         data() {
             return {

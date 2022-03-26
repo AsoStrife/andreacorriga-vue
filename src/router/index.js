@@ -6,18 +6,24 @@ const router = createRouter({
     scrollBehavior (to, from, savedPosition) {
         return { top: 0 }
     },
-  routes: [
+    routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView,
-      mainNav: true,
+        path: '/',
+        name: 'home',
+        component: HomeView,
+        mainNav: true,
     },
     {
-      path: '/projects',
-      name: 'Projects',
-      component: () => import('../views/ProjectsView.vue'),
-      mainNav: true
+        path: '/skills',
+        name: 'Skills',
+        component: () => import('../views/SkillsView.vue'),
+        mainNav: true
+    },
+    {
+        path: '/projects',
+        name: 'Projects',
+        component: () => import('../views/ProjectsView.vue'),
+        mainNav: true
     },
     {
         path: '/strife_coin',

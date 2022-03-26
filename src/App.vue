@@ -30,23 +30,53 @@
         setup() {
             useMeta({
                 htmlAttrs: { 
-                    lang: 'en',
+                    lang: constants.meta.language,
                 },
                 description: constants.main.description,
+                /*
                 meta: [
                     {
-                    name: 'keywords',
-                    content:
-                        'My description',
+                        name: "author",
+                        content: constants.meta.author,
                     },
-                ],
-                author: "a",
-                robots: "r",
-                //language: "en",
-                //rating: "rr",
-
-                //"fb:app_id": "123"
-                
+                    {
+                        name: 'keywords',
+                        content: constants.meta.keywords
+                    },
+                    {
+                        name: 'robots',
+                        content: constants.meta.robots
+                    },
+                    {
+                        name: 'language',
+                        content: constants.meta.language
+                    },
+                    {
+                        name: 'rating',
+                        content: constants.meta.rating
+                    },
+                    {
+                        property: 'fb:app_id',
+                        content: constants.facebook_open_graph.app_id
+                    },
+                    {
+                        property: 'og:type',
+                        content: constants.facebook_open_graph.type
+                    },
+                    {
+                        property: 'og:url',
+                        content: constants.facebook_open_graph.url
+                    },
+                    {
+                        property: 'og:image',
+                        content: constants.facebook_open_graph.image
+                    },
+                    {
+                        property: 'og:title',
+                        content: constants.main.main_title
+                    }
+                ]
+                */
             })
         }
     }

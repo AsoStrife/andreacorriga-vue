@@ -5,7 +5,7 @@
                 <h1>Projects</h1>
             </div>
         </div>
-        <p>As a programming enthusiast, I often launch new projects to experiment with new technologies/frameworks and try to solve small everyday problems.This page shows the projects that are currently active. Abandoned projects, if open-source, can always be found on my <b><a :href="github.url" target="_blank" :title="github.name">Github</a></b> profile.</p>
+        <p>As a programming enthusiast, I often launch new projects to experiment with new technologies/frameworks and try to solve small everyday problems. This page shows the projects that are currently active. Abandoned projects, if open-source, can always be found on my <b><a :href="github.url" target="_blank" :title="github.name">Github</a></b> profile.</p>
         <div v-for="project in this.constants.projects" :key="project.name">
             <Project :project="project"/>
         </div>

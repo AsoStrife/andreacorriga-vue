@@ -4,8 +4,8 @@
             <div class="row">
                 <div class="col-12 col-md-3">
                     
-                    <img class="rounded-circle img-fluid avatar d-block wow fadeInLeft"
-                        :src="this.constants.img.profile" 
+                    <img class="rounded-circle img-fluid avatar d-block wow fadeInLeft" @mouseover="mouseOver()" @mouseleave="mouseLeave()"
+                        :src="profilePic" 
                         alt="Andrea Corriga photo" 
                         title="andrea-corriga-img-profile">
                     
@@ -26,7 +26,21 @@
         name: 'Intro',
         props: {
             constants: Object
+        },
+        data() {
+            return {
+                profilePic: this.constants.img.profile
+            }
+        },
+        methods: {
+            mouseOver: function() {
+                this.profilePic = this.constants.img.profile_real
+            },
+            mouseLeave: function() {
+                this.profilePic = this.constants.img.profile
+            }
         }
+        
     }
 </script>
 
@@ -36,6 +50,8 @@
     -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
     border: 1px solid #202945;
+    /*border: 3px solid #FFF; */
+
 }
 
 .header .name {

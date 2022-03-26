@@ -5,24 +5,31 @@ let constants = {
       "full_name": "Andrea Corriga",
       "username": "AsoStrife",
       "slogan": "Ph.D. & Software Engineer",
-      "main_title": "Andrea Corriga (@AsoStrife) • Ph.D and Software Engineer",
+      "main_title": "Andrea Corriga (@AsoStrife) • Ph.D. and Software Engineer",
       "second_title": " • Andrea Corriga (@AsoStrife)",
+      "description": "Hello World, I'm Andrea Corriga (@AsoStrife) and this is my personal website. I'm a PhD Student and Software Developer. In this website you can find my personal projects, publications, my social profile and other stuffs",
+    },
+    "meta": {
       "author": "Andrea Corriga (@AsoStrife)",
       "email": "me@andreacorriga.com",
-      "description": "Hello World, I'm Andrea Corriga (@AsoStrife) and this is my personal website. I'm a PhD Student and Software Developer. In this website you can find my personal projects, publications, my social profile and other stuffs",
+      
       "keywords": "Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding",
       "robots": "index, follow",
       "language": "en",
       "rating": "general",
       "cv": "https://cv.andreacorriga.com"
     },
+    "urls": {
+        "iris_thesis": "https://iris.unica.it/handle/11584/330467"
+    },
     "img": {
-      "profile": "/img/profile/andrea-corriga-asostrife-profile-image.png",
-      "profile_200x200": "/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
-      "profile_chocobo": "/img/profile/andrea-corriga-asostrife-chocobo-small.png",
-      "favicon": "/favicon/favicon.png",
-      "favicon_72x72": "/img/favicon/favicon-72x72.png",
-      "favicon_114x114": "/img/favicon/favicon-114x114.png"
+        "profile": "/img/profile/andrea-corriga-asostrife-profile-image.png",
+        "profile_real": "/img/profile/andrea-corriga-asostrife-profile-real-image.jpg",
+        "profile_200x200": "/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
+        "profile_chocobo": "/img/profile/andrea-corriga-asostrife-chocobo-small.png",
+        "favicon": "/favicon/favicon.png",
+        "favicon_72x72": "/img/favicon/favicon-72x72.png",
+        "favicon_114x114": "/img/favicon/favicon-114x114.png"
     },
     "social": [
         {
@@ -64,6 +71,11 @@ let constants = {
             "name": "Amazon",
             "url": "https://www.amazon.it/hz/wishlist/ls/1WJMAAM7SOJQZ/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist",
             "icon": "fab fa-amazon"
+        },
+        {
+            "name": "Google Scholar", 
+            "url": "https://scholar.google.com/citations?user=fRRyZyoAAAAJ&hl=it", 
+            "icon": "fab fa-google"
         }
     ],
     "facebook_open_graph": {
@@ -81,20 +93,27 @@ let constants = {
       "Git",
       "C",
       "C++",
+      "C#",
       "PHP",
       "Codeigniter",
-      "JAVA",
+      "Java",
       "Springboot",
       "Javascript",
       "Framework7",
+      "Vue",
       "Bootstrap",
       "Machine Learning",
       "Reinforcement Learning",
       "Node",
       "Strapi",
       "Mysql",
-      "Mongo",
-      "Firebase"
+      "MongoDB",
+      "Firebase",
+      "Python",
+      "Flask", 
+      "Keras", 
+      "Tensorflow",
+      "Solidity"
     ],
     "projects": [
         {
