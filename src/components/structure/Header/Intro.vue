@@ -104,10 +104,6 @@
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
-    .header .avatar {
-        margin-top: 65px;
-    }
-
     .header .name {
         font-size: 32px;
     }

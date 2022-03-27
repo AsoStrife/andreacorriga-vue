@@ -8,20 +8,17 @@
         <div class="row">
             <div class="col-lg-9 col-md-12">
                 <p> Welcome aboard foreigner, <br> I'm <strong>Andrea Corriga</strong> (obviously), <strong>Ph.D.</strong> and <strong>Software Engineer</strong> currently live in Sardinia, Italy. <br> You can find me on every social or videogame with the username <strong>AsoStrife</strong>.</p>
-                <p>Don't take this site too seriously, this space is used 50% to talk about my professional life, including personal projects, and the remaining 50% to insert easter eggs, experiment with frameworks and talk about me.</p>
+
+                <p> I'm a {{currentAge}} old boy with several passions including sports, music, videogames and programming. I regularly practice body building in my personal home gym, swimming and I have been playing the electric guitar since I was eleven. I approached the world of programming when I was 8 years old trying to make my first website with very poor results. My first website was a terrible Pokémon website with one background image (repeated x-y) and a simple text <i>"Benvenuti sul più grande sito di pokemon del mondo!!"</i> translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003. </p>
+
+                <p>My favourite video game is <strong>Final Fantasy VII</strong> and in particular I love the Final Fantasy saga. Starting from this passion at the age of sixteen I launched my first website related to the world of Final Fantasy called <strong><a href="http://ffstory.andreacorriga.com" target="_blank">FFStory</a></strong> <small>(Final Fantasy Story)</small> which was a repository of guides, solutions and discussions regarding the various chapters of the Final Fantasy saga and Kingdom Hearst. Despite my inexperience, the site achieved a certain notoriety with more than 10k unique monthly views, 300 active users on the forum, dozens of users in the live chat and +16k likes on the Facebook page. I've reuploaded the site just for fun at <a href="http://ffstory.andreacorriga.com" target="_blank" title="FFStory">http://ffstory.andreacorriga.com </a>.
+                </p>
             </div> <!-- ./ item col -md-12 -->
             <div class="item col-lg-3 d-none d-lg-block">
                 <img :src="constants.img.profile_chocobo" class="img-fluid" alt="andrea-corriga-asostrife-paint" title="andrea-corriga-asostrife-paint">
             </div>
         </div> <!-- ./ row -->
 
-        <div class="row mt-3">
-            <div class="col-lg-12 col-md-12">
-                <p> I'm a {{currentAge}} old boy with several passions including sports, music and programming. I regularly practice body building in my personal home gym,swimming and I have been playing the electric guitar since I was eleven. I approached the world of programming when I was 8 years old trying to make my first website with very poor results. My first website was a terrible Pokémon website with one background image (repeated x-y) and a simple text <i>"Benvenuti sul più grande sito di pokemon del mondo!!"</i> translated: "Welcome on the best pokemon website on the world!!" made with FrontPage 2003. </p>
-                <p>At the age of sixteen I launched my first site related to the world of Final Fantasy called <strong><a href="http://ffstory.andreacorriga.com" target="_blank">FFStory.it</a></strong> an Italian Community of Final Fantasy and Kingdom Hearst. I've reuploaded the site just for fun. (visit <a href="http://ffstory.andreacorriga.com" target="_blank" title="ffstory link">http://ffstory.andreacorriga.com </a>)
-                </p>
-            </div> <!-- ./ item col -md-12 -->    
-        </div> <!-- ./ row -->
         
     </div>
 </template>

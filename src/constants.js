@@ -132,7 +132,19 @@ let constants = {
             android: "", 
             ios: "", 
         }
-    ]
+    ],
+    "strife_coin": {
+        "name": "Strife Coin",
+        "symbol": "$ASO",
+        "icon": "/img/strife_coin/logo_32x32.png", 
+        "address": "0x2515d83c1150d8fe4b71f9dac5db558c08675938",
+        "token_url": "https://bscscan.com/token/0x2515d83c1150d8fe4b71f9dac5db558c08675938", 
+        "contract_url": "https://bscscan.com/address/0x2515d83c1150d8fe4b71f9dac5db558c08675938",
+        "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x2515d83c1150d8Fe4b71F9dAc5DB558C08675938", 
+        "total_supply": 500000000, 
+        "circulatin_supply": 300000000,
+        "decimals": 18,
+    }
 }
 
 export default constants;
