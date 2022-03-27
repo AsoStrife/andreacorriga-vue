@@ -5,7 +5,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-2 col-md-2">
-                            <img :src="project.img" class="img-thumbnail" :alt="project.name" :title="project.name">
+                            <img :src="project.img" class="img-thumbnail project-img d-block" :alt="project.name" :title="project.name">
                         </div>
                         <div class="col-lg-10 col-md-10">
                             <h1>{{project.name}}</h1>
@@ -60,5 +60,12 @@
 
     .btn:hover {
         background-color: #0f1526;
+    }
+
+    @media screen and (max-width: 768px) {
+        .project-img {
+            width: 25%;
+            margin-bottom: 20px;
+        }
     }
 </style>

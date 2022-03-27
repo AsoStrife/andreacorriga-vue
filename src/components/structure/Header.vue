@@ -11,9 +11,9 @@
 </template>
 
 <script>
-    import TopBar from "./Header/TopBar.vue"
-    import Intro from "./Header/Intro.vue"
-    import PageNav from "./Header/PageNav.vue"
+    import TopBar from "./HeaderComponents/TopBar.vue"
+    import Intro from "./HeaderComponents/Intro.vue"
+    import PageNav from "./HeaderComponents/PageNav.vue"
     import constants from "../../constants"
 
     export default {

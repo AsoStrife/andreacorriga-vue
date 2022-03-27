@@ -1,6 +1,5 @@
 <template>
     <Introduction :constants="constants" />
-    <Skills :constants="constants" />
 </template>
 
 <script>

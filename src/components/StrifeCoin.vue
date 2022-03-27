@@ -24,7 +24,7 @@
                     </div>
 
                     <div class="col-lg-6 col-md-12">
-                        <table class="table table-striped ">
+                        <table class="table table-striped table-responsive">
                             <caption>{{constants.strife_coin.name}} ({{constants.strife_coin.symbol}}) Information</caption>
                             <tbody>
                                 <tr>
@@ -63,10 +63,15 @@
                             Buy {{constants.strife_coin.symbol}} on Pancake Swap
                         </a>
 
-                    </div>                    
+                    </div>
+
                 </div> <!-- /.row -->
 
-                <small><i class="fas fa-info-circle mr-2"></i> If for some absurd reason you are seriously considering buying this token, remember that this coin has no fundamental value or purpose. It only exists because I wanted to have a token in the BSC (Binance Smart Chain) with my name on it.</small>
+                <div class="row mt-4">
+                    <div class="col-lg-12 col-md-12">
+                        <small class="mt-3"><i class="fas fa-info-circle mr-2"></i> If for some absurd reason you are seriously considering buying this token, remember that this coin has no fundamental value or purpose. It only exists because I wanted to have a token in the BSC (Binance Smart Chain) with my name on it.</small>
+                    </div>
+                </div>
             </div>
         </div> <!-- /.row -->
     </div>

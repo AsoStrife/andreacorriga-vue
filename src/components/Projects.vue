@@ -14,7 +14,7 @@
 
 <script>
     import constants from "../constants.js"
-    import Project from "./structure/Project.vue";
+    import Project from "./Projects/Project.vue";
 
     export default {
         name: 'Projects',
