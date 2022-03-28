@@ -7,7 +7,7 @@ let constants = {
       "slogan": "Ph.D. & Software Engineer",
       "main_title": "Andrea Corriga (@AsoStrife) • Ph.D. and Software Engineer",
       "second_title": " • Andrea Corriga (@AsoStrife)",
-      "description": "Andrea Corriga is a Ph.D and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife.",
+      "description": "Andrea Corriga is a Ph.D. and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife.",
     },
     "meta": {
       "author": "Andrea Corriga (@AsoStrife)",
