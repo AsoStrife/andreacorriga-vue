@@ -1,6 +1,6 @@
 <template>
     <div class="row" :id="galleryID">
-        <div class="col-md-2" v-for="(image, key) in imagesData" :key="key">
+        <div class="col-4 col-lg-2 col-md-2" v-for="(image, key) in imagesData" :key="key">
             <a
                 :href="image.largeURL"
                 :data-pswp-width="image.width"
