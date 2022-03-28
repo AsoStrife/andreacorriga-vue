@@ -10,6 +10,8 @@
   "dependencies": {
     "bootstrap": "^4.1.0",
     "jquery": "^3.6.0",
+    "photoswipe": "^5.2.2",
+    "photoswipe-dynamic-caption-plugin": "^1.1.1",
     "vue-meta": "^3.0.0-alpha.8",
     "vue-router": "^4.0.12",
     "wow.js": "^1.2.2"

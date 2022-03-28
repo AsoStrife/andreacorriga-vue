@@ -7,13 +7,13 @@ let constants = {
       "slogan": "Ph.D. & Software Engineer",
       "main_title": "Andrea Corriga (@AsoStrife) • Ph.D. and Software Engineer",
       "second_title": " • Andrea Corriga (@AsoStrife)",
-      "description": "Hello World, I'm Andrea Corriga (@AsoStrife) and this is my personal website. I'm a PhD Student and Software Developer. In this website you can find my personal projects, publications, my social profile and other stuffs",
+      "description": "Andrea Corriga is a Ph.D and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife.",
     },
     "meta": {
       "author": "Andrea Corriga (@AsoStrife)",
       "email": "me@andreacorriga.com",
       
-      "keywords": "Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding",
+      "keywords": "Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Java, Keras, Vue, Crypto, Coin, Tensorflow, Strapi,  Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding",
       "robots": "index, follow",
       "language": "en",
       "rating": "general",
@@ -83,7 +83,7 @@ let constants = {
       "type": "profile",
       "url": "https://andreacorriga.com/",
       "image": "https://andreacorriga.com/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
-      "description": "Hello World, I'm Andrea Corriga (@AsoStrife) and this is my personal website. I'm a PhD Student and Software Developer. In this website you can find my personal projects, publications, my social profile and other stuffs"
+      "description": "Andrea Corriga is a Ph.D and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife."
     },
     "skills": [
       "HTML5",
@@ -144,7 +144,44 @@ let constants = {
         "total_supply": 500000000, 
         "circulatin_supply": 300000000,
         "decimals": 18,
-    }
+    },
+    "gallery": [
+        {
+            largeURL: '/img/gallery/01-foto-con-ciorts.jpg',
+            thumbnailURL: '/img/gallery/thumbs/01-foto-con-ciorts.jpg',
+            width: 1920,
+            height: 1246,
+            caption: "One of the first photos I have with <strong>Ninu Ciortis</strong>. The photo dates back to the early 2000s, when I was in elementary school."
+        },
+        {
+            largeURL: '/img/gallery/02-collage_ciorts.jpg',
+            thumbnailURL: '/img/gallery/thumbs/02-collage_ciorts.jpg',
+            width: 1920,
+            height: 1920,
+            caption: "Collage for the 20th anniversary of <strong>Ninu Ciortis</strong>"
+        },
+        {
+            largeURL: '/img/gallery/03-foto-con-ciorts.jpg',
+            thumbnailURL: '/img/gallery/thumbs/03-foto-con-ciorts.jpg',
+            width: 1920,
+            height: 1080,
+            caption: "Random photo with Ninu. One of the later shots has been the inspiration for the profile photo I use on all social media."
+        },
+        {
+            largeURL: '/img/gallery/04-laurea-con-ciorts.jpg',
+            thumbnailURL: '/img/gallery/thumbs/04-laurea-con-ciorts.jpg',
+            width: 1920,
+            height: 1444,
+            caption: "Day of Bachelor's Degree."
+        },
+        {
+            largeURL: '/img/gallery/05-home-gym.jpg',
+            thumbnailURL: '/img/gallery/thumbs/05-home-gym.jpg',
+            width: 1920,
+            height: 1080,
+            caption: "My personal home gym: the famous <strong>AsoStrife Towe Gym</strong>, built in my garage."
+        }
+    ]
 }
 
 export default constants;

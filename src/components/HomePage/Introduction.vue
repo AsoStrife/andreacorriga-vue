@@ -20,16 +20,28 @@
             </div>
         </div> <!-- ./ row -->
 
-        
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Gallery</h1>
+                <p>I'm not a guy who takes a lot of shots, so finding the right photos to put here has been a challenge. Reading a wall of text can be boring, so I'll leave here a couple of photos that can briefly sum up my love for my cats, my passions and can show you my unphotogenic face.</p>
+                <SimpleGallery galleryID="my-test-gallery" :images="images" />
+                
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
 
+    import SimpleGallery from './SimpleGallery.vue';
+
     export default {
         name: 'Introduction',
         props: {
-            constants: Object
+            constants: Object,
+        },
+        components: {
+            SimpleGallery 
         },
         methods: {
             getAge(birthday) {
@@ -40,7 +52,8 @@
         },
         data() {
             return {
-                currentAge: Int32Array
+                currentAge: Int32Array,
+                images: this.constants.gallery,
             }
         },
         mounted() {
