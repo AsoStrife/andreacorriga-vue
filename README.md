@@ -3,7 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License"></a>
 </p>
-![Preview Andrea Corriga Website](https://github.com/AsoStrife/andreacorriga-vue/blob/develop/public/img/preview/home_page.png?raw=true)
+
+<p><img width="auto" src="https://github.com/AsoStrife/andreacorriga-vue/blob/develop/public/img/preview/home_page.png?raw=true" alt="Andrea Corriga Preview"></p>
 
 ## About Andrea Corriga
 
