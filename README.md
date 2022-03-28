@@ -1,35 +1,37 @@
-# andreacorriga-vue
+# Andrea Corriga Personal Website 
 
-This template should help get you started developing with Vue 3 in Vite.
+<p align="center">
+  <img src="https://img.shields.io/npm/l/vue.svg?sanitize=true" alt="License"></a>
+</p>
+![Preview Andrea Corriga Website](https://github.com/AsoStrife/andreacorriga-vue/blob/develop/public/img/preview/home_page.png?raw=true)
 
-## Recommended IDE Setup
+## About Andrea Corriga
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+**Andrea Corriga** is a **Ph.D.** and **Software Engineer** currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username **AsoStrife**.
 
-## Customize configuration
+## Repository
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Repository of the https://andreacorriga.com website build with **Vue 3** and **Vite**. 
+To install all dependencies, run `npm i`.
 
-## Project Setup
-
-```sh
-npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
 npm run build
+
+npm run preview
+
+lint
 ```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
+
+## Open Source 
+
+- [Vue](https://vuejs.org/) 
+- [Vue-Meta](https://vue-meta.nuxtjs.org/)
+- [Vue-Router](https://router.vuejs.org/)
+- [Vite](https://vitejs.dev/) 
+- [Bootstrap 4.x](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [jQuery](https://jquery.com/) 
+- [Photoswipe](https://photoswipe.com/)
