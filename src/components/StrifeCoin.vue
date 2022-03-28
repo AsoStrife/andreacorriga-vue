@@ -36,7 +36,7 @@
                                     <td>{{constants.strife_coin.total_supply.toLocaleString()}} {{constants.strife_coin.symbol}}</td>
                                 </tr>
                                 <tr>
-                                    <th>Circulatin Supply:</th>
+                                    <th>Circulating Supply:</th>
                                     <td>{{constants.strife_coin.circulatin_supply.toLocaleString()}} {{constants.strife_coin.symbol}}</td>
                                 </tr>
                                 <tr>

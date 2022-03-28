@@ -76,6 +76,11 @@ let constants = {
             "name": "Google Scholar", 
             "url": "https://scholar.google.com/citations?user=fRRyZyoAAAAJ&hl=it", 
             "icon": "fab fa-google"
+        },
+        {
+            "name": "Paypal", 
+            "url": "https://www.paypal.com/paypalme/AsoStrife", 
+            "icon": "fab fa-paypal"
         }
     ],
     "facebook_open_graph": {
@@ -180,6 +185,24 @@ let constants = {
             width: 1920,
             height: 1080,
             caption: "My personal home gym: the famous <strong>AsoStrife Towe Gym</strong>, built in my garage."
+        }
+    ],
+    "repositories": [
+        {
+            "name": "BlockAPI: Blockchain analytics API", 
+            "url": "https://github.com/blockchain-unica/blockapi"
+        },
+        {
+            "name": "Computer Vision Project", 
+            "url": "https://github.com/AsoStrife/Computer-Vision-Project"
+        },
+        {
+            "name": "Framework7 Facebook Login", 
+            "url": "https://github.com/AsoStrife/Framework7-Facebook-Login"
+        },
+        {
+            "name": "Delaunay Triangulation", 
+            "url": "https://github.com/AsoStrife/Delaunay-Triangulation"
         }
     ]
 }
