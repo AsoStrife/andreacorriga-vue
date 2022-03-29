@@ -16,7 +16,7 @@
                 <p>Not all projects are born to be innovative and shake up the community. Sometimes you just need to write code. <br> My <b><a :href="github.url" target="_blank" :title="github.name">Github Profile</a></b> contains several repositories, some of them worth mentioning... others a bit less. <br> Here is a short list of noteworthy ones:</p>
                 <ul>
                     <li v-for="repo in this.constants.repositories" :key="repo.name">
-                        <a href="{{repo.url}}" target="_blank" title="{{repo.name}}">{{repo.name}}</a>
+                        <a :href="repo.url" target="_blank" :title="repo.name">{{repo.name}}</a>
                     </li>
                     
                 </ul>

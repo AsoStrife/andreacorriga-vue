@@ -17,7 +17,7 @@
                             <li><i class="fas fa-check"></i> Why not? </li>
                             <li><i class="fas fa-check"></i> {{constants.strife_coin.symbol}} is shareable token and you can send it as a gift.; </li>
                             <li><i class="fas fa-check"></i> {{constants.strife_coin.symbol}} is great for short and long investing because yes;</li>
-                            <li><i class="fas fa-check"></i> There are no partners or investors; No one will ever interfere with the rise to power of the one and only true meme token; </li>
+                            <li><i class="fas fa-check"></i> There are no partners or investors; No one will ever interfere with your rise to financial freedom; </li>
                             <li><i class="fas fa-check"></i> No seriously, you need a fifth point to buy some <strong>{{constants.strife_coin.name}}s</strong>?</li>
                             
                         </ul>

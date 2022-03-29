@@ -7,8 +7,8 @@
 
                 <p><strong>In brief, I'm quite good in:</strong></p>
                 <ul class="list-unstyled service-list">
-                    <li><i class="fas fa-check"></i> Full Stack Web-App development and Rest Services with PHP <strong>(Codeigniter)</strong>; </li>
-                    <li><i class="fas fa-check"></i> Developing microservices with Java <strong>(Springboot)</strong>; </li>
+                    <li><i class="fas fa-check"></i> Full Stack Web-App development and Rest Services with PHP using <strong>Codeigniter</strong>; </li>
+                    <li><i class="fas fa-check"></i> Developing microservices with Java using <strong>Springboot</strong>; </li>
                     <li><i class="fas fa-check"></i> Front-End development with Vue, Bootstrap and  JS;</li>
                     <li><i class="fas fa-check"></i> Cross-Platform App (Android, iOS, Windows, MacOs, Linux) with <strong>Framework 7</strong> as Front-End Framework and Capacitor, Cordova, Electron and Vite as builder tools;</li>
                     <li><i class="fas fa-check"></i> I've made a few Telegram Bot with a couple of thousand active users per month. I've used PHP, but I would like to try something with Node.  </li>

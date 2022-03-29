@@ -183,8 +183,22 @@ let constants = {
             largeURL: '/img/gallery/05-home-gym.jpg',
             thumbnailURL: '/img/gallery/thumbs/05-home-gym.jpg',
             width: 1920,
-            height: 1080,
+            height: 1440,
             caption: "My personal home gym: the famous <strong>AsoStrife Towe Gym</strong>, built in my garage."
+        },
+        {
+            largeURL: '/img/gallery/06-zack-sepuollo.jpg',
+            thumbnailURL: '/img/gallery/thumbs/06-zack-sepuollo.jpg',
+            width: 1920,
+            height: 1920,
+            caption: "He's <strong>Zack Sepuollo Ichiero Lëpi Giorgio Strife</strong> <small>(10/10/2020)</small>. My seconds cat. He has more names than years of life."
+        },
+        {
+            largeURL: '/img/gallery/07-zack-sepuollo.jpg',
+            thumbnailURL: '/img/gallery/thumbs/07-zack-sepuollo.jpg',
+            width: 922,
+            height: 2000,
+            caption: "As Zack grew up he developed various interests including: the bathroom sink, gummy balls and birds. His favourite sport is fly hunting."
         }
     ],
     "repositories": [
