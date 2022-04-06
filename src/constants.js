@@ -124,7 +124,7 @@ let constants = {
         {
             name: "Ayco",
             img: "/img/projects/ayco-logo.png", 
-            description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favourite dishes offline.", 
+            description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.", 
             url: "https://ayco.app",
             android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco", 
             ios: "https://apps.apple.com/us/app/ayco/id1576412037", 
@@ -132,7 +132,7 @@ let constants = {
         {
             name: "Unicapp",
             img: "/img/projects/unicapp-logo.png", 
-            description: "<b>Temporarily unavailable</b>.<br> <strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for for University Students. With Unicapp, students can view their university records, view the fees they have to pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
+            description: "<b>Temporarily unavailable</b>.<br> <strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
             url: "",
             android: "", 
             ios: "", 
