@@ -106,6 +106,10 @@ let constants = {
       "Javascript",
       "Framework7",
       "Vue",
+      "jQuery",
+      "Vite",  
+      "Capacitor",
+      "Electron", 
       "Bootstrap",
       "Machine Learning",
       "Reinforcement Learning",
@@ -118,6 +122,9 @@ let constants = {
       "Flask", 
       "Keras", 
       "Tensorflow",
+      "Scikit-learn",
+      "Pandas",
+      "Numpy",
       "Solidity"
     ],
     "projects": [
