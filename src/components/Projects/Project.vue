@@ -15,6 +15,10 @@
                                     <i class="fa fa-globe" aria-hidden="true"></i> Website
                                 </a>
 
+                                <a :href="project.repositoryUrl" target="_blank" class="btn mr-2" v-if="project.repositoryUrl">
+                                    <i class="fab fa-github" aria-hidden="true"></i> Repository
+                                </a>
+
                                 <a :href="project.android" target="_blank" class="btn mr-2" v-if="project.android">
                                     <i class="fab fa-google-play mr-2" aria-hidden="true"></i> Play Store
                                 </a>
