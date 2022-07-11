@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 let constants = {
     "main": {
       "name": "Andrea",
@@ -140,7 +141,15 @@ let constants = {
             name: "Unicapp",
             img: "/img/projects/unicapp-logo.png", 
             description: "<b>Temporarily unavailable</b>.<br> <strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
-            url: "",
+            url: "https://github.com/AsoStrife/Unicapp",
+            android: "", 
+            ios: "", 
+        },
+        {
+            name: "My Movies",
+            img: "/img/projects/my-movies-logo.png", 
+            description: "This repository is a part of the <strong>My Movies App project</strong>. <strong>My movies</strong> is a simple application to monitor which movies you have seen and which you own in 4k blu ray, blu ray, dvd and vhs. It's open source both Front-End and Back-End repository.", 
+            url: "https://github.com/AsoStrife/My-Movies-F7-Vue",
             android: "", 
             ios: "", 
         }
