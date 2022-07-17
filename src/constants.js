@@ -135,7 +135,8 @@ let constants = {
             description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.", 
             url: "https://ayco.app",
             android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco", 
-            ios: "https://apps.apple.com/us/app/ayco/id1576412037", 
+            ios: "https://apps.apple.com/us/app/ayco/id1576412037",
+            chrome: ""
         },
         {
             name: "Unicapp",
@@ -144,7 +145,8 @@ let constants = {
             repositoryUrl: "https://github.com/AsoStrife/Unicapp",
             url: "",
             android: "", 
-            ios: "", 
+            ios: "",
+            chrome: ""
         },
         {
             name: "My Movies",
@@ -153,7 +155,18 @@ let constants = {
             repositoryUrl: "https://github.com/AsoStrife/My-Movies-F7-Vue",
             url: "",
             android: "", 
+            ios: "",
+            chrome: ""
+        },
+        {
+            name: "Bing Search Automator",
+            img: "/img/projects/bing-search-automator-logo.png", 
+            description: "An extension for Google Chrome & Microsoft Edge to help out users who use <strong>Microsoft Rewards</strong>. This extension automatically performs Bing Searches, with 500ms between searches.", 
+            repositoryUrl: "https://github.com/AsoStrife/Bing-Search-Automator",
+            url: "",
+            android: "", 
             ios: "", 
+            chrome: "https://chrome.google.com/webstore/detail/bing-search-automator/ehpnglljgijenbiknlgpcbnnmhfdgbam?hl=it"
         }
     ],
     "strife_coin": {
@@ -174,7 +187,7 @@ let constants = {
             thumbnailURL: '/img/gallery/thumbs/01-foto-con-ciorts.jpg',
             width: 1920,
             height: 1246,
-            caption: "One of the first photos I have with <strong>Ninu Ciortis</strong>. The photo dates back to the early 2000s, when I was in elementary school."
+            caption: "One of the first photos I have with <strong>Ninu Ciortis</strong>. This photo dates back to the early 2000s, when I was in elementary school."
         },
         {
             largeURL: '/img/gallery/02-collage_ciorts.jpg',

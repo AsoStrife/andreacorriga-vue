@@ -26,6 +26,10 @@
                                 <a :href="project.ios" target="_blank" class="btn mr-2" v-if="project.ios">
                                     <i class="fab fa-apple mr-2" aria-hidden="true"></i> App Store
                                 </a>
+
+                                <a :href="project.chrome" target="_blank" class="btn mr-2" v-if="project.chrome">
+                                    <i class="fab fa-chrome mr-2" aria-hidden="true"></i> Chrome Store
+                                </a>
                             </div>
                         </div>
                     </div>
