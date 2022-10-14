@@ -141,11 +141,11 @@ let constants = {
         {
             name: "Unicapp",
             img: "/img/projects/unicapp-logo.png", 
-            description: "<b>Temporarily unavailable</b>.<br> <strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
+            description: "<strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
             repositoryUrl: "https://github.com/AsoStrife/Unicapp",
             url: "",
-            android: "", 
-            ios: "",
+            android: "https://play.google.com/store/apps/details?id=com.moapps.unicapp", 
+            ios: "https://apps.apple.com/us/app/unicapp/id1448510832",
             chrome: ""
         },
         {
