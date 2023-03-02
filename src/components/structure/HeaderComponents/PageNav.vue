@@ -6,7 +6,7 @@
                 <ul id="page-nav" class="nav page-nav list-inline">
                     <span v-for="r in this.routes" :key="r.name">
                         <li class="nav-item">
-                            <router-link class="nav-link" :to="r.path" :title="r.name">{{r.name}}</router-link> 
+                            <router-link :class="getLinkClass(r.name)" :to="r.path" :title="r.name">{{r.name}}</router-link> 
                         </li>
                     </span>
                 </ul><!--//page-nav-->
@@ -44,7 +44,10 @@
             }
         },
         methods: {
-            
+            getLinkClass(currentElement){
+                let routeName = this.$router.currentRoute.value.name;
+                return routeName == currentElement ? "nav-link active" : "nav-link"
+            }
         }
     }
 </script>
