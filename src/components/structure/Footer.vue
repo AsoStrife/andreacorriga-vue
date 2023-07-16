@@ -3,6 +3,9 @@
 		<div class="container">
 			<small class="copyright">
                 Andrea Corriga (@Asostrife) &bull; 
+
+                <a href="https://strifelab.com" title="Strifelab - Siti web, App Mobile, SEO a Cagliari ed in Sardegna" target="_blank">Made by Strifelab</a> &bull; 
+
                 <router-link to="/privacy_policy">Privacy Policy</router-link> 
             </small>
 		</div><!--//container-->
