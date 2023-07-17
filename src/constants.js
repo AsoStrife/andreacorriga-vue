@@ -1,24 +1,24 @@
 /* eslint-disable prettier/prettier */
 let constants = {
     "main": {
-      "name": "Andrea",
-      "surname": "Corriga",
-      "full_name": "Andrea Corriga",
-      "username": "AsoStrife",
-      "slogan": "Ph.D. & Software Engineer",
-      "main_title": "Andrea Corriga (@AsoStrife) • Ph.D. and Software Engineer",
-      "second_title": " • Andrea Corriga (@AsoStrife)",
-      "description": "Andrea Corriga is a Ph.D. and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife.",
+        "name": "Andrea",
+        "surname": "Corriga",
+        "full_name": "Andrea Corriga",
+        "username": "AsoStrife",
+        "slogan": "Ph.D. & Software Engineer",
+        "main_title": "Andrea Corriga (@AsoStrife) • Ph.D. and Software Engineer",
+        "second_title": " • Andrea Corriga (@AsoStrife)",
+        "description": "Andrea Corriga is a Ph.D. and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife.",
     },
     "meta": {
-      "author": "Andrea Corriga (@AsoStrife)",
-      "email": "me@andreacorriga.com",
-      
-      "keywords": "Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Java, Keras, Vue, Crypto, Coin, Tensorflow, Strapi,  Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding",
-      "robots": "index, follow",
-      "language": "en",
-      "rating": "general",
-      "cv": "https://cv.andreacorriga.com"
+        "author": "Andrea Corriga (@AsoStrife)",
+        "email": "me@andreacorriga.com",
+
+        "keywords": "Andrea, Corriga, Aso, AsoStrife, Cloud, CloudAso, Microsoft, Student, Partner, MSP, Portfolio, Personal Website, Webmaster, Web, Developer, PHP, Javascript, Java, Keras, Vue, Crypto, Coin, Tensorflow, Strapi,  Python, Streamer, Twitch, University, Master, Graduate, Computer Science, Coding",
+        "robots": "index, follow",
+        "language": "en",
+        "rating": "general",
+        "cv": "https://cv.andreacorriga.com"
     },
     "urls": {
         "iris_thesis": "https://iris.unica.it/handle/11584/330467"
@@ -38,7 +38,7 @@ let constants = {
             "url": "https://facebook.com/AsoStrife",
             "icon": "fab fa-facebook"
         },
-         {
+        {
             "name": "Instagram",
             "url": "https://instagram.com/AsoStrife",
             "icon": "fab fa-instagram"
@@ -74,110 +74,110 @@ let constants = {
             "icon": "fab fa-amazon"
         },
         {
-            "name": "Google Scholar", 
-            "url": "https://scholar.google.com/citations?user=fRRyZyoAAAAJ&hl=it", 
+            "name": "Google Scholar",
+            "url": "https://scholar.google.com/citations?user=fRRyZyoAAAAJ&hl=it",
             "icon": "fab fa-google"
         },
         {
-            "name": "Paypal", 
-            "url": "https://www.paypal.com/paypalme/AsoStrife", 
+            "name": "Paypal",
+            "url": "https://www.paypal.com/paypalme/AsoStrife",
             "icon": "fab fa-paypal"
         }
     ],
     "facebook_open_graph": {
-      "app_id": "2210608369160877",
-      "type": "profile",
-      "url": "https://andreacorriga.com/",
-      "image": "https://andreacorriga.com/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
-      "description": "Andrea Corriga is a Ph.D and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife."
+        "app_id": "2210608369160877",
+        "type": "profile",
+        "url": "https://andreacorriga.com/",
+        "image": "https://andreacorriga.com/img/profile/andrea-corriga-asostrife-profile-image-200x200.png",
+        "description": "Andrea Corriga is a Ph.D and Software Engineer currently living in Sardinia, Italy. Passionate about sport, music, video games and programming he can be found in all social networks or video games with the username AsoStrife."
     },
     "skills": [
-      "HTML5",
-      "CSS3",
-      "Sass",
-      "Less",
-      "Git",
-      "C",
-      "C++",
-      "C#",
-      "PHP",
-      "Codeigniter",
-      "Java",
-      "Springboot",
-      "Javascript",
-      "Framework7",
-      "Vue",
-      "jQuery",
-      "Vite",  
-      "Capacitor",
-      "Electron", 
-      "Bootstrap",
-      "Machine Learning",
-      "Reinforcement Learning",
-      "Node",
-      "Strapi",
-      "Mysql",
-      "MongoDB",
-      "Firebase",
-      "Python",
-      "Flask", 
-      "Keras", 
-      "Tensorflow",
-      "Scikit-learn",
-      "Pandas",
-      "Numpy",
-      "Solidity"
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "Less",
+        "Git",
+        "C",
+        "C++",
+        "C#",
+        "PHP",
+        "Codeigniter",
+        "Java",
+        "Springboot",
+        "Javascript",
+        "Framework7",
+        "Vue",
+        "jQuery",
+        "Vite",
+        "Capacitor",
+        "Electron",
+        "Bootstrap",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Node",
+        "Strapi",
+        "Mysql",
+        "MongoDB",
+        "Firebase",
+        "Python",
+        "Flask",
+        "Keras",
+        "Tensorflow",
+        "Scikit-learn",
+        "Pandas",
+        "Numpy",
+        "Solidity"
     ],
     "projects": [
         {
             name: "Ayco",
-            img: "/img/projects/ayco-logo.png", 
-            description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.", 
+            img: "/img/projects/ayco-logo.png",
+            description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.",
             url: "https://ayco.app",
-            android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco", 
+            android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco",
             ios: "https://apps.apple.com/us/app/ayco/id1576412037",
             chrome: ""
         },
         {
             name: "Unicapp",
-            img: "/img/projects/unicapp-logo.png", 
-            description: "<strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.", 
+            img: "/img/projects/unicapp-logo.png",
+            description: "<strong>Unicapp</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for University Students. With Unicapp, students can view their university records, view the fees they must pay, calculate their grade point average and book exams. Unicapp support more than 20 Italian Universities.",
             repositoryUrl: "https://github.com/AsoStrife/Unicapp",
             url: "",
-            android: "https://play.google.com/store/apps/details?id=com.moapps.unicapp", 
+            android: "https://play.google.com/store/apps/details?id=com.moapps.unicapp",
             ios: "https://apps.apple.com/us/app/unicapp/id1448510832",
             chrome: ""
         },
         {
             name: "My Movies",
-            img: "/img/projects/my-movies-logo.png", 
-            description: "This repository is a part of the <strong>My Movies App project</strong>. <strong>My movies</strong> is a simple application to monitor which movies you have seen and which you own in 4k blu ray, blu ray, dvd and vhs. It's open source both Front-End and Back-End repository.", 
+            img: "/img/projects/my-movies-logo.png",
+            description: "This repository is a part of the <strong>My Movies App project</strong>. <strong>My movies</strong> is a simple application to monitor which movies you have seen and which you own in 4k blu ray, blu ray, dvd and vhs. It's open source both Front-End and Back-End repository.",
             repositoryUrl: "https://github.com/AsoStrife/My-Movies-F7-Vue",
             url: "",
-            android: "", 
+            android: "",
             ios: "",
             chrome: ""
         },
         {
             name: "Bing Search Automator",
-            img: "/img/projects/bing-search-automator-logo.png", 
-            description: "An extension for Google Chrome & Microsoft Edge to help out users who use <strong>Microsoft Rewards</strong>. This extension automatically performs Bing Searches, with 500ms between searches.", 
+            img: "/img/projects/bing-search-automator-logo.png",
+            description: "An extension for Google Chrome & Microsoft Edge to help out users who use <strong>Microsoft Rewards</strong>. This extension automatically performs Bing Searches, with 500ms between searches.",
             repositoryUrl: "https://github.com/AsoStrife/Bing-Search-Automator",
             url: "",
-            android: "", 
-            ios: "", 
-            chrome: "https://chrome.google.com/webstore/detail/bing-search-automator/ehpnglljgijenbiknlgpcbnnmhfdgbam?hl=it"
+            android: "",
+            ios: "",
+            chrome: "https://chrome.google.com/webstore/detail/search-automator/ohjecpfbaodieoicfnpnigjbinkjgnkb"
         }
     ],
     "strife_coin": {
         "name": "Strife Coin",
         "symbol": "$ASO",
-        "icon": "/img/strife_coin/logo_32x32.png", 
+        "icon": "/img/strife_coin/logo_32x32.png",
         "address": "0x2515d83c1150d8fe4b71f9dac5db558c08675938",
-        "token_url": "https://bscscan.com/token/0x2515d83c1150d8fe4b71f9dac5db558c08675938", 
+        "token_url": "https://bscscan.com/token/0x2515d83c1150d8fe4b71f9dac5db558c08675938",
         "contract_url": "https://bscscan.com/address/0x2515d83c1150d8fe4b71f9dac5db558c08675938",
-        "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x2515d83c1150d8Fe4b71F9dAc5DB558C08675938", 
-        "total_supply": 500000000, 
+        "pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0x2515d83c1150d8Fe4b71F9dAc5DB558C08675938",
+        "total_supply": 500000000,
         "circulatin_supply": 300000000,
         "decimals": 18,
     },
@@ -234,19 +234,19 @@ let constants = {
     ],
     "repositories": [
         {
-            "name": "BlockAPI: Blockchain analytics API", 
+            "name": "BlockAPI: Blockchain analytics API",
             "url": "https://github.com/blockchain-unica/blockapi"
         },
         {
-            "name": "Computer Vision Project", 
+            "name": "Computer Vision Project",
             "url": "https://github.com/AsoStrife/Computer-Vision-Project"
         },
         {
-            "name": "Framework7 Facebook Login", 
+            "name": "Framework7 Facebook Login",
             "url": "https://github.com/AsoStrife/Framework7-Facebook-Login"
         },
         {
-            "name": "Delaunay Triangulation", 
+            "name": "Delaunay Triangulation",
             "url": "https://github.com/AsoStrife/Delaunay-Triangulation"
         }
     ]
