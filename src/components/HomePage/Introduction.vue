@@ -61,7 +61,7 @@
             }
         },
         mounted() {
-            this.currentAge = this.getAge( new Date(1993, 9, 21))
+            this.currentAge = this.getAge( new Date(1993, 8, 21))
         }
     }
 </script>
