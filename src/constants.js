@@ -112,8 +112,10 @@ let constants = {
         "Capacitor",
         "Electron",
         "Bootstrap",
+        "Tailwind",
         "Machine Learning",
         "Reinforcement Learning",
+        "Generative AI",
         "Node",
         "Strapi",
         "Mysql",
@@ -121,11 +123,15 @@ let constants = {
         "Firebase",
         "Python",
         "Flask",
+        "FastAPI", 
         "Keras",
         "Tensorflow",
         "Scikit-learn",
         "Pandas",
         "Numpy",
+        "Microsoft Azure", 
+        "Amazon AWS", 
+        "Google Cloud Platform"
     ],
     "projects": [
         // {
