@@ -126,18 +126,17 @@ let constants = {
         "Scikit-learn",
         "Pandas",
         "Numpy",
-        "Solidity"
     ],
     "projects": [
-        {
-            name: "Ayco",
-            img: "/img/projects/ayco-logo.png",
-            description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.",
-            url: "https://ayco.app",
-            android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco",
-            ios: "https://apps.apple.com/us/app/ayco/id1576412037",
-            chrome: ""
-        },
+        // {
+        //     name: "Ayco",
+        //     img: "/img/projects/ayco-logo.png",
+        //     description: "<strong>Ayco</strong> is a free app for <strong>Android</strong> and <strong>iOS</strong> for ordering Sushi from All You Can Eat restaurants. Ayco is simple and fast, allowing you to consult the menù of All You Can Eat restaurants near you at any time of the day. Ayco allows you to save restaurant menus and your favorite dishes offline.",
+        //     url: "https://ayco.app",
+        //     android: "https://play.google.com/store/apps/details?id=it.webenterprises.ayco",
+        //     ios: "https://apps.apple.com/us/app/ayco/id1576412037",
+        //     chrome: ""
+        // },
         {
             name: "Unicapp",
             img: "/img/projects/unicapp-logo.png",
@@ -159,14 +158,14 @@ let constants = {
             chrome: ""
         },
         {
-            name: "Bing Search Automator",
+            name: "Rewards Search Automator",
             img: "/img/projects/bing-search-automator-logo.png",
             description: "An extension for Google Chrome & Microsoft Edge to help out users who use <strong>Microsoft Rewards</strong>. This extension automatically performs Bing Searches, with 500ms between searches.",
             repositoryUrl: "https://github.com/AsoStrife/Bing-Search-Automator",
             url: "",
             android: "",
             ios: "",
-            chrome: "https://chrome.google.com/webstore/detail/search-automator/ohjecpfbaodieoicfnpnigjbinkjgnkb"
+            chrome: "https://chromewebstore.google.com/detail/rewards-search-automator/paohfpjfibchbhbkdnlhjpfblafifehg?hl=it"
         }
     ],
     "strife_coin": {
