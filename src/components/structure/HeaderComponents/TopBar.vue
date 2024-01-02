@@ -17,7 +17,7 @@
             
             <div class="col-12 col-md-6 cv-telegram">
                 <a class="btn mr-1" :href="telegram.url" target="_blank" :title="telegram.name"><i class="fas fa-paper-plane" aria-hidden="true"></i> Telegram</a>
-                <a class="btn" :href="this.constants.main.cv"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>
+                <a class="btn" :href="this.constants.meta.cv" target="_blank"><i class="fas fa-download" aria-hidden="true"></i> Curriculum Vitae </a>
             </div>
 
         </div>
